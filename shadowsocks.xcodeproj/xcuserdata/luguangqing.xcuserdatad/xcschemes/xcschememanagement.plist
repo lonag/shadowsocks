@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DCL.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 		<key>ShadowsocksX.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -27,6 +32,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>318F5FB21D3639490024FDFB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>6205309418D4443E00887D3E</key>
 		<dict>
 			<key>primary</key>
