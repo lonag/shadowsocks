@@ -223,7 +223,6 @@
 		316430D01D34FBDC00316DDD /* GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GZIP.h; path = GZIP/GZIP.h; sourceTree = SOURCE_ROOT; };
 		316430D11D34FBDC00316DDD /* GZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GZIP.m; path = GZIP/GZIP.m; sourceTree = SOURCE_ROOT; };
 		318F5F0D1D3634B50024FDFB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		318F5FB31D3639490024FDFB /* DCL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C37277C988C81455B93297F /* Pods-ShadowsocksX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowsocksX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShadowsocksX/Pods-ShadowsocksX.debug.xcconfig"; sourceTree = "<group>"; };
 		5CC3AE10A48F708BD20F29CB /* libPods-shadowsocks_sysconf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shadowsocks_sysconf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6205309518D4443E00887D3E /* shadowsocks_sysconf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = shadowsocks_sysconf; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -445,13 +444,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		318F5FB01D3639490024FDFB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6205309218D4443E00887D3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -580,7 +572,6 @@
 				623A7EBA1795AE8000DF11DF /* libshadowsocks.a */,
 				627A6DF718B47E9300493BBC /* ShadowsocksX.app */,
 				6205309518D4443E00887D3E /* shadowsocks_sysconf */,
-				318F5FB31D3639490024FDFB /* DCL.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -960,23 +951,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		318F5FB21D3639490024FDFB /* DCL */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 318F5FBF1D36394A0024FDFB /* Build configuration list for PBXNativeTarget "DCL" */;
-			buildPhases = (
-				318F5FAF1D3639490024FDFB /* Sources */,
-				318F5FB01D3639490024FDFB /* Frameworks */,
-				318F5FB11D3639490024FDFB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DCL;
-			productName = DCL;
-			productReference = 318F5FB31D3639490024FDFB /* DCL.app */;
-			productType = "com.apple.product-type.application";
-		};
 		6205309418D4443E00887D3E /* shadowsocks_sysconf */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 620530A418D4443E00887D3E /* Build configuration list for PBXNativeTarget "shadowsocks_sysconf" */;
@@ -1069,9 +1043,6 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = clowwindy;
 				TargetAttributes = {
-					318F5FB21D3639490024FDFB = {
-						CreatedOnToolsVersion = 7.3;
-					};
 					621571A416CF6BCB003D96B4 = {
 						DevelopmentTeam = QR2ZFRE3WH;
 						SystemCapabilities = {
@@ -1109,7 +1080,6 @@
 				623A7EB91795AE8000DF11DF /* libshadowsocks */,
 				627A6DF618B47E9300493BBC /* ShadowsocksX */,
 				6205309418D4443E00887D3E /* shadowsocks_sysconf */,
-				318F5FB21D3639490024FDFB /* DCL */,
 			);
 		};
 /* End PBXProject section */
@@ -1153,13 +1123,6 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		318F5FB11D3639490024FDFB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		621571A316CF6BCB003D96B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1375,13 +1338,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		318F5FAF1D3639490024FDFB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6205309118D4443E00887D3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1553,71 +1509,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		318F5FC01D36394A0024FDFB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = DCL/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lugq1001.DCL;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		318F5FC11D36394A0024FDFB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = DCL/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lugq1001.DCL;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
 		6205309E18D4443E00887D3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 13E25C0B403960F5980F8A97 /* Pods-shadowsocks_sysconf.debug.xcconfig */;
@@ -1918,14 +1809,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		318F5FBF1D36394A0024FDFB /* Build configuration list for PBXNativeTarget "DCL" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				318F5FC01D36394A0024FDFB /* Debug */,
-				318F5FC11D36394A0024FDFB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		620530A418D4443E00887D3E /* Build configuration list for PBXNativeTarget "shadowsocks_sysconf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
